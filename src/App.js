@@ -1,11 +1,11 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-import { Button, Image } from 'react-bootstrap';
-import { Stack } from 'react-bootstrap';
+// import { Button, Image } from 'react-bootstrap';
+// import { Stack } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/NavbarCom';
 import Header from './components/Header';
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './components/Home';
 import Formation from './components/Formation';
 import Experience from './components/Experience';

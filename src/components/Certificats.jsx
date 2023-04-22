@@ -1,6 +1,6 @@
 import React from "react"
 import { Card } from 'primereact/card';
-import * as bootstrap from 'bootstrap';
+// import * as bootstrap from 'bootstrap';
 import BackendCertificat from "../assets/BackendApps.png"
 import DevopsCertificat from "../assets/DevOps.png"
 import AgileCertificat from "../assets/Agile.png"
@@ -9,7 +9,7 @@ import CloudCertificat from "../assets/CloudComputing.png"
 
 
 export default function Certificats(){
-    const bootstrap = 'some value';
+    // const bootstrap = 'some value';
     const backend = <img alt="logo" src={BackendCertificat}  height="300"  className="rounded-lg"></img>;
     const devops = <img alt="logo" src={DevopsCertificat}  height="300"  className="rounded-lg"></img>;
     const agile = <img alt="logo" src={AgileCertificat}  height="300"  className="rounded-lg"></img>;
